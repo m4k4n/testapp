@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
+
 #import "AppDelegate.h"
 
 #import "MasterViewController.h"
@@ -13,7 +14,7 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
-@synthesize managedObjectContext = __managedObjectContext;
+@synthesize managedObjectContext = __managedObjectContext;;
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
 
